@@ -51,6 +51,20 @@ blarg4 <- function(...){
   res = eval.parent(mc)
 }
 
+#' @rdname extract
+#' @export
+"[.blarg4" <- function(...){
+
+  mc <- match.call()
+
+  print('b4')
+
+  #ordinarily, some messing of mc would go here
+
+  mc[[1]] <- quote(base:::`[.data.frame`)
+  res = eval.parent(mc)
+}
+
 
 #' Custom extract function (or subset or whatever) for dtsurveys. A loose wrapper over `[.data.table`
 #' @param x a dtsurvey object

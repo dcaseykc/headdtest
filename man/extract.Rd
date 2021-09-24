@@ -3,10 +3,13 @@
 \name{extract}
 \alias{extract}
 \alias{[.blarg}
+\alias{[.blarg4}
 \alias{[.blarg2}
 \title{Custom extract function (or subset or whatever) for dtsurveys. A loose wrapper over `[.data.table`}
 \usage{
 \method{[}{blarg}(x, i, j, by, ...)
+
+\method{[}{blarg4}(x, i, j, by, ...)
 
 \method{[}{blarg2}(x, i, j, by, ...)
 }

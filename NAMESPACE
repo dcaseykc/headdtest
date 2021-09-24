@@ -2,6 +2,7 @@
 
 S3method("[",blarg)
 S3method("[",blarg2)
+S3method("[",blarg4)
 S3method(head,blarg)
 export(blarg)
 export(blarg2)
