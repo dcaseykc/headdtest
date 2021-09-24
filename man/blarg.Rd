@@ -4,6 +4,7 @@
 \alias{blarg}
 \alias{blarg2}
 \alias{blarg3}
+\alias{blarg4}
 \title{Silly little wrapper to data.table}
 \usage{
 blarg(...)
@@ -11,6 +12,8 @@ blarg(...)
 blarg2(...)
 
 blarg3(...)
+
+blarg4(...)
 }
 \arguments{
 \item{...}{passed along to data.table::data.table}

@@ -24,6 +24,15 @@ blarg3 <- function(...){
   r
 }
 
+#' @rdname blarg
+#' @export
+blarg4 <- function(...){
+  r = data.frame(...)
+  class(r) = c('blarg4', class(r))
+
+  r
+}
+
 
 #' Custom extract function (or subset or whatever) for dtsurveys. A loose wrapper over `[.data.table`
 #' @param x a dtsurvey object
