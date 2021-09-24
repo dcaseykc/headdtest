@@ -2,9 +2,15 @@
 % Please edit documentation in R/hello.R
 \name{blarg}
 \alias{blarg}
+\alias{blarg2}
+\alias{blarg3}
 \title{Silly little wrapper to data.table}
 \usage{
 blarg(...)
+
+blarg2(...)
+
+blarg3(...)
 }
 \arguments{
 \item{...}{passed along to data.table::data.table}
